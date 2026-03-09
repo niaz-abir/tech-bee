@@ -8,7 +8,7 @@ const AboutUs = () => {
 
       <div>
         <p className="text-[1.25rem] leading-relaxed text-foreground/80">
-          <span className="font-semibold">Graphitech</span> distinguishes itself
+          <span className="font-semibold">Tech bee</span> distinguishes itself
           as more than a digital agency by employing innovators, creators and
           strategists who are committed to propelling your brand forward in the
           digital era. With a founding principle of flourishing and imagining
@@ -43,9 +43,9 @@ const AboutUs = () => {
             />
           </div>
 
-          <div className="max-w-lg bg-[#23131c] rounded-md md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12">
+          <div className="max-w-lg bg-[#33146d] rounded-md md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12">
             <div className="flex flex-col p-6 md:px-16">
-              <h2 className="text-2xl font-bold uppercase text-pink-600 lg:text-4xl">
+              <h2 className="text-2xl font-bold uppercase text-white lg:text-4xl">
                 Meet Our Team
               </h2>
               <p className="mt-4">
@@ -56,7 +56,7 @@ const AboutUs = () => {
               </p>
 
               <div className="mt-8">
-                <button className="w-28 h-14 btn-outline border-none rounded-md text-[18px] text-white font-bold hover:bg-[#23131c] bg-[#532a41]">
+                <button className="w-28 h-14 btn-outline border-none rounded-md text-[18px] text-white font-bold hover:bg-[#23131c] bg-[#4e0d7f]">
                   contact us
                 </button>
               </div>

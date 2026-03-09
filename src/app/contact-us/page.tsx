@@ -14,14 +14,15 @@ const ContactUs = () => {
         <div className="flex items-stretch justify-center">
           <div className="grid md:grid-cols-2">
             <div className="h-full pr-6 mt-8 ">
-              <p className="mt-3 mb-12 text-lg text-white dark:text-slate-400">
-                className aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut
-                scelerisque sagittis ante, ac tincidunt sem venenatis ut.
+              <h1 className="mt-3  text-3xl font-bold text-white dark:text-slate-400">
+                Let’s start a conversation today,
+              </h1>
+              <p className="mb-12 text-[18px] mt-2 font-bold text-gray-300">
+                Reach out to us and we’ll be happy to assist you.
               </p>
               <ul className="mb-6 md:mb-0">
                 <li className="flex">
-                  <div className="flex h-10 w-10 items-center justify-center rounded bg-pink-700 text-gray-50">
+                  <div className="flex h-10 w-10 items-center justify-center rounded bg-purple-700 text-gray-50">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -43,15 +44,15 @@ const ContactUs = () => {
                       Our Address
                     </h3>
                     <p className="text-white dark:text-slate-400">
-                      1230 Maecenas Street Donec Road
+                      2510 164th St Apt F207,
                     </p>
                     <p className="text-white dark:text-slate-400">
-                      New York, EEUU
+                      Lynnwood, Washington 98087, United States.
                     </p>
                   </div>
                 </li>
                 <li className="flex">
-                  <div className="flex h-10 w-10 items-center justify-center rounded bg-pink-700 text-gray-50">
+                  <div className="flex h-10 w-10 items-center justify-center rounded bg-purple-700 text-gray-50">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -74,15 +75,15 @@ const ContactUs = () => {
                       Contact
                     </h3>
                     <p className="text-white dark:text-slate-400">
-                      Mobile: +1 (123) 456-7890
+                      Mobile: +1 (425) 548-4872
                     </p>
                     <p className="text-white dark:text-slate-400">
-                      Mail: tailnext@gmail.com
+                      Mail: techbee@gmail.com
                     </p>
                   </div>
                 </li>
                 <li className="flex">
-                  <div className="flex h-10 w-10 items-center justify-center rounded bg-pink-700 text-gray-50">
+                  <div className="flex h-10 w-10 items-center justify-center rounded bg-purple-700 text-gray-50">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -114,10 +115,10 @@ const ContactUs = () => {
               </ul>
             </div>
             <div className="card h-fit max-w-6xl p-5 md:p-8" id="form">
-              <div className="min-h-screen bg-[#392b33] rounded-md py-2 flex flex-col justify-center sm:py-12">
+              <div className="min-h-screen bg-[#1f1245] rounded-md py-2 flex flex-col justify-center sm:py-12">
                 <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-                  <div className="absolute inset-0 bg-gradient-to-r from-pink-800 to-pink-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-                  <div className="text-white relative px-2 py-6 bg-[#23131c] shadow-lg sm:rounded-3xl sm:p-16">
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#0a0617] to-[#0a0617] shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+                  <div className="text-white relative px-2 py-6 bg-[#150c2e] shadow-lg sm:rounded-3xl sm:p-16">
                     <div className="text-center pb-6">
                       <h1 className="text-3xl">Contact Us!</h1>
 
@@ -156,12 +157,12 @@ const ContactUs = () => {
 
                       <div className="flex justify-between">
                         <input
-                          className="shadow bg-pink-700   text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                          className="shadow bg-purple-700   text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                           type="submit"
                           value="Send ➤"
                         />
                         <input
-                          className="shadow bg-pink-700 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                          className="shadow bg-purple-700 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                           type="reset"
                         />
                       </div>
