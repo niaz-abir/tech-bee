@@ -33,7 +33,7 @@ const services = [
 
 export default function ConnectCompany() {
   return (
-    <section className="relative w-full py-20 mt-14 mb-14 bg-black text-white">
+    <section className="relative w-full  py-20 mt-14 mb-14 bg-black text-white">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
@@ -55,7 +55,7 @@ export default function ConnectCompany() {
             sometimes on purpose.
           </p>
 
-          <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-md font-semibold">
+          <button className="bg-[#5e36d0] hover:bg-[#4b29b0] px-6 py-3 rounded-md font-semibold">
             VIEW ALL CLIENT
           </button>
         </div>

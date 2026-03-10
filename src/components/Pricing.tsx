@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaCheck } from "react-icons/fa";
 
 export default function Packages() {
@@ -97,7 +98,7 @@ export default function Packages() {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-14">
-          <h2 className="text-4xl font-bold mb-4">Our Packages</h2>
+          <h2 className="text-4xl font-bold mb-2">Our Packages</h2>
           <p className="text-gray-400">
             Explore our customizable packages for your specific needs
           </p>
@@ -140,9 +141,11 @@ export default function Packages() {
               </ul>
 
               {/* Button */}
-              <button className="w-full bg-[#5e36d0] hover:bg-[#4b29b0] transition py-3 rounded-lg font-medium">
-                Get a Quote
-              </button>
+              <Link href="contact-us">
+                <button className="w-full bg-[#5e36d0] hover:bg-[#4b29b0] transition py-3 rounded-lg font-medium">
+                  Get a Quote
+                </button>
+              </Link>
             </div>
           ))}
         </div>

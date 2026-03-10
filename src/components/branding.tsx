@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export function Branding() {
@@ -44,9 +45,11 @@ export function Branding() {
         </div>
 
         {/* CTA Link */}
-        <button className="text-white font-semibold text-lg border-b-2 border-purple-500 pb-1 hover:text-purple-400 hover:border-white transition-all">
-          Start Your Project
-        </button>
+        <Link href="/contact-us">
+          <button className="text-white font-semibold text-lg border-b-2 border-purple-500 pb-1 hover:text-purple-400 hover:border-white transition-all">
+            Start Your Project
+          </button>
+        </Link>
       </div>
 
       {/* Decorative Vector (Bottom Right Corner) */}

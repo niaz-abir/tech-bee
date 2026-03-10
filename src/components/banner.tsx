@@ -40,12 +40,12 @@ export function Banner() {
             <button className="bg-[#5e36d0] hover:bg-[#4b29b0] hover:scale-105 shadow-[0_0_25px_rgba(94,54,208,0.4)] transition-all py-4 px-10 rounded-full font-bold text-lg">
               Get Started Now
             </button>
-            <button className="flex items-center gap-3 group text-slate-200 hover:text-white transition-colors">
+            {/* <button className="flex items-center gap-3 group text-slate-200 hover:text-white transition-colors">
               <HiPlayCircle className="text-5xl opacity-40 group-hover:opacity-100 transition-opacity" />
               <span className="font-semibold border-b border-transparent group-hover:border-white">
                 View Showreel
               </span>
-            </button>
+            </button> */}
           </div>
 
           {/* Social Proof Group */}

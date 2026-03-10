@@ -37,7 +37,7 @@ const Testimonial = () => {
                   Emily Smith
                 </p>
                 <p className="text-sm font-medium text-slate-100/70">
-                  Marketing Manager at ABC Company
+                  Marketing Manager at Veltrix
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Testimonial = () => {
                   Michael Johnson
                 </p>
                 <p className="text-sm font-medium text-slate-100/70">
-                  CEO at XYZ Corporation
+                  CEO at Skyvera
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Testimonial = () => {
                   Sarah Brown
                 </p>
                 <p className="text-sm font-medium text-slate-100/70">
-                  CTO at XYZ Corporation
+                  CTO at Orvanta
                 </p>
               </div>
             </div>
@@ -110,7 +110,7 @@ const Testimonial = () => {
                   James White
                 </p>
                 <p className="text-sm font-medium text-slate-100/70">
-                  COO at XYZ Corporation
+                  COO at Zenvora Innovations
                 </p>
               </div>
             </div>

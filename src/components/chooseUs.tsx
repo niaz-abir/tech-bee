@@ -51,8 +51,8 @@ const ChooseUs = () => {
     },
   ];
   return (
-    <section className="mt-24">
-      <h1 className="font-bold text-center pb-8 text-3xl">Why Choose us?</h1>
+    <section className=" mt-16">
+      <h1 className="font-bold text-center pb-8 text-4xl">Why Choose us?</h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {allChooseUs?.map((choose) => (
           <div

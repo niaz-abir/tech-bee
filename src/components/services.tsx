@@ -61,7 +61,7 @@ const Services = () => {
     <section>
       <div className="text-center mb-14 mt-14 p-4 ">
         <h1 className="font-bold  text-center text-4xl">Our Services</h1>
-        <p className="text-[18px] text-gray-400">
+        <p className="text-[18px] text-gray-400 mt-2">
           We always try to give our best services at the moment.There are lot of
           service here.
         </p>
