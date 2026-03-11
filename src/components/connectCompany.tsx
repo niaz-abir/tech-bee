@@ -1,39 +1,26 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image"; // Import Next.js Image component
+
+// Importing local images returns an object, not a string
+import image1 from "../../public/images/Brands (png)-03.png";
+import image2 from "../../public/images/Brands (png)-02.png";
+import image3 from "../../public/images/logo9.jpeg";
+import image4 from "../../public/images/Brands (png)-04.png";
+import image5 from "../../public/images/Doner kebab-01.jpg.jpeg";
+import image6 from "../../public/images/Brands (png)-06 (1).png";
 
 const services = [
-  {
-    title: "Creative",
-    image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-  },
-  {
-    title: "Creative",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
-  },
-  {
-    title: "Niaz Design",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
-  },
-  {
-    title: "Brand Name",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-  },
-  {
-    title: "Express",
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
-  },
-  {
-    title: "Innovate",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
-  },
+  { title: "Creative", image: image1 },
+  { title: "Creative", image: image2 },
+  { title: "Niaz Design", image: image3 },
+  { title: "Brand Name", image: image4 },
+  { title: "Express", image: image5 },
+  { title: "Innovate", image: image6 },
 ];
 
 export default function ConnectCompany() {
   return (
-    <section className="relative w-full  py-20 mt-14 mb-14 bg-black text-white">
+    <section className="relative w-full py-20 mt-14 mb-14 bg-black text-white overflow-hidden">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
@@ -55,7 +42,7 @@ export default function ConnectCompany() {
             sometimes on purpose.
           </p>
 
-          <button className="bg-[#5e36d0] hover:bg-[#4b29b0] px-6 py-3 rounded-md font-semibold">
+          <button className="bg-[#5e36d0] hover:bg-[#4b29b0] px-6 py-3 rounded-md font-semibold transition-colors">
             VIEW ALL CLIENT
           </button>
         </div>
@@ -65,14 +52,18 @@ export default function ConnectCompany() {
           {services.map((item, index) => (
             <div
               key={index}
-              className="bg-black/60 backdrop-blur-md border border-gray-700 p-6 flex flex-col items-center justify-center rounded-lg  transition"
+              className="bg-black/60 backdrop-blur-md border border-gray-700 p-6 flex flex-col items-center justify-center rounded-lg hover:border-gray-500 transition"
             >
-              <img
-                src={item.image}
-                alt={item.title}
-                className="w-10 h-10 object-contain mb-2"
-              />
-              <p className="font-semibold text-sm">{item.title}</p>
+              {/* Using Next.js Image component to handle the imported object */}
+              <div className="relative w-24 h-24 mb-2">
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  fill
+                  className="object-contain"
+                />
+              </div>
+      
             </div>
           ))}
         </div>
